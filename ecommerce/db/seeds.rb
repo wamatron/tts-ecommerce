@@ -8,25 +8,36 @@
 Product.delete_all
 
 Product.create!(
-    title: "Marker",
-    description: "Best marker on the Market!",
-    price: 1.29
-    )
-    
+  title: "Marker",
+  description: "Best marker on the market!",
+  image_url: "http://www.rainbowracing.com/onlinestore/sites/default/files/imagecache/product_full/item_368_Marks-A-Lot_Jumbo_Markers-01.png",
+  price: 1.29
+)
+
 Product.create!(
-    title: "Highlighter",
-    description: "Best highlighter on the Market!",
-    price: 3.39
-    )
-    
+  title: "Mechanical Pencil",
+  description: "Never need a sharpener again. This mechanical pencil stays sharp forever.",
+  image_url: "http://www.oppictures.com/SINGLEIMAGES/400/BICMPF11_1_2.JPG",
+  price: 3.99
+)
+
 Product.create!(
-    title: "Bookshelf",
-    description: "Best bookshelf on the Market!",
-    price: 50.99
-    )
-    
+  title: "Highlighter",
+  description: "Highlight what's important on your pages!",
+  image_url: "https://www.officedepot.com/pictures/us/od/sk/lg/203174_sk_lg.jpg",
+  price: 2.50
+)
+
 Product.create!(
-    title: "Desk",
-    description: "Best desk on the Market!",
-    price: 299.99
-    )
+  title: "Bookshelf",
+  description: "Start your book collection here.",
+  image_url: "http://thumbs.dreamstime.com/x/empty-bookshelf-19542805.jpg",
+  price: 89.99
+)
+
+Product.create!(
+  title: "Desk",
+  description: "A place to do work.",
+  image_url: "http://pic-zoom.com/media/images/3fddfbf93a.jpg",
+  price: 150.00
+)
