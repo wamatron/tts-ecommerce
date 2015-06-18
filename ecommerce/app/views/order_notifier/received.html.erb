@@ -1,0 +1,18 @@
+<p>
+  Dear <%= @order.name %>,
+</p>
+
+<p>
+  Thank you for your recent order from Best Ecommerce!
+</p>
+
+<p>
+  You ordered the following items:
+</p>
+
+<%= render @order.line_items -%>
+
+
+<p>
+  We'll send you a separate email when it ships.
+</p>

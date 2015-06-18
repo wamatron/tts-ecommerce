@@ -38,6 +38,6 @@ Product.create!(
 Product.create!(
   title: "Desk",
   description: "A place to do work.",
-  image_url: "http://pic-zoom.com/media/images/3fddfbf93a.jpg",
+  image_url: "http://www.banhockfurnishing.com/uploads/4/2/0/0/42004193/243557_orig.jpg",
   price: 150.00
 )

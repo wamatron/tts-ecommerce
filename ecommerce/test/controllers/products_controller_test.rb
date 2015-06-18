@@ -46,8 +46,9 @@ class ProductsControllerTest < ActionController::TestCase
   end
 
   test "should destroy product" do
+    temp_product = Product.create(@update)
     assert_difference('Product.count', -1) do
-      delete :destroy, id: @product
+      delete :destroy, id: temp_product.id
     end
 
     assert_redirected_to products_path

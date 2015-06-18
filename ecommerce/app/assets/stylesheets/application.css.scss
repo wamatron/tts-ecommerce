@@ -51,7 +51,7 @@
     background: #141;
     
     form, div {
-     display: inline; 
+      display: inline;
     }
     
     input {
@@ -60,13 +60,13 @@
     
     #cart {
       font-size: smaller;
-      color: white;
-    }
-    
-    table {
-      border-top: 1px dotted #595;
-      border-bottom: 1px dotted #595;
-      margin-bottom: 10px;
+      color:     white;
+      
+      table {
+        border-top:    1px dotted #595;
+        border-bottom: 1px dotted #595;
+        margin-bottom: 10px;
+      }
     }
     
     ul {
@@ -80,6 +80,42 @@
           font-size: small;
         }
       }
+    }
+  }
+}
+
+.ecommerce_form {
+  fieldset {
+    background: #efe;
+    
+    legend {
+      color: #dfd;
+      background: #141;
+      font-family: sans-serif;
+      padding: 0.2em 1em;
+    }
+  }
+  
+  form {
+    label {
+      width: 5em;
+      float: left;
+      text-align: right;
+      padding-top: 0.2em;
+      margin-right: 0.1em;
+      display: block;
+    }
+    
+    select, textarea, input {
+      margin-left: 0.5em;
+    }
+    
+    .submit {
+      margin-left: 4em;
+    }
+    
+    br {
+      display: none;
     }
   }
 }
