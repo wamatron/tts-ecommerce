@@ -41,3 +41,9 @@ Product.create!(
   image_url: "http://www.banhockfurnishing.com/uploads/4/2/0/0/42004193/243557_orig.jpg",
   price: 150.00
 )
+
+User.create!(
+  name: 'default',
+  password: 'default',
+  password_confirmation: 'default'
+  )
